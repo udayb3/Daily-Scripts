@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Included the microsoft and xml namespaces -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!--The below line does not allow apple devices to reformat the emails.-->
+	<meta name="x-apple-disable-message-reformatting">
+	
+	<title>Base Template</title>
+	<!-- The below options deals with the settings of microsoft outlook and the xml defines the size of the images -->
+	<!--[if mso]>
+
+	<noscript>
+	<xml>
+	<o:OfficeDocumentSettings>
+	<o:PixelsPerInch>96</o:PixelsPerInch>
+	</o:OfficeDocumentSettings>
+	</xml>
+	</noscript>
+	<![endif]-->
+	
+	<!-- Adding internal CSS in the file -->
+	<!-- Change the font here -->
+	<style>
+		table, td, div, h1, p { font-family: Arial, sans-serif; }
+		table, td {border:2px solid #000000 !important;}
+	</style>
+</head>
+
+<body style="margin:0; padding:0; background-color: white">
+	<!--sometimes the body tag is removed by the email client and thus here we ensure that the table is still applying. -->
+	<table role="presentation" style="width:100%;border-collapse: collapse;border: 0;border-spacing: 0;background: white;">
+		<tr style="padding: 40px 0px 30px 0px;  margin: 0px 0px 0px 0px; border: 0px 0px 0px 0px">
+			<td name="greeting" align="center" style="padding: 0px 0px 0px 0px;  margin: 0px 0px 0px 0px; color: black">
+				<img src="https://i.ytimg.com/vi/UzFyDyK5kEE/hqdefault.jpg" alt="Image" width="auto" style="height:auto; display:block;"  />
+			</td>
+		</tr>
+
+		<tr name="text" style="padding: 10px 0px 0px 0px;  margin: 0px 0px 0px 0px; border: 0px 0px 0px 0px">
+			<td align="left" style="padding: 36px 10% 20px 10%; margin: 0px 0px 0px 0px; ">
+				I am <b>Uday Bhardwaj, DSAI 2026</b>. This is just a demo presentation where you can easily see that the text is coming inside the second tag. The next text is just to fill the space but the space is not being filled right now.
+			</td>
+		</tr>
+		<tr name="image">
+			<td align="center" style="padding: 0px 0px 0px 0px">
+				
+			</td>
+		</tr>
+		<tr name="signature">
+			<td align="center" style="padding: 0px 0px 0px 0px">
+				
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+

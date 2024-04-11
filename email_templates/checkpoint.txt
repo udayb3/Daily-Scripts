@@ -1,0 +1,8 @@
+Parts Covered:
+
+1. Starting the HTML template with the basic lines for setting the html template with the different clients.
+2. Setting the basic font in the starting and putting any link to add for the forms
+3. Putting some custom lines for the microsoft outlook and the xml due to their custom settings. the "mso" mean microsoft outlook.
+4. Creating the template and starting with body.
+5. Using tables putting the role of presentation as they are not used for putting rows of data.
+6. Setting the padding and margin for the image and the text of the email. 
