@@ -1,0 +1,6 @@
+# ignoring the npm packages
+js/node_modules/*
+
+# Ignoring the test files and folders.
+test/**/*
+*/**/test.*
