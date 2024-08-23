@@ -1,4 +1,5 @@
 1. Render a tables of contents in the below manner:
+## Part1
 
 ## Table of Contents
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
@@ -11,6 +12,5 @@
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Part1
 
 ## Part2
